@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            font: normal 20pt Times New Roman;
+        }
+        h1 {
+            color:rgb(142, 110, 175);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!-- comentário em html -->
+    <p>Já me livrei da maldição!!</p>
+    <script>
+        //Number.parseInt() - converte para número inteiro.
+        //Number.parseFloat() - converte para número com '.'
+        //Number() - o js sabe para qual converter.
+        //String() - converte para String.
+        var n1 = Number.parseFloat(window.prompt ('Digite um número: '));
+        var n2 = Number.parseFloat(window.prompt ('Digite outro número: '));
+        var soma = n1 + n2;
+        window.alert ('A soma dos valores é: ' + soma) //'+' está concatenando.
+        //window.alert (`A soma dos valores é: ${soma}`) forma mais prática de concatenar
+
+    </script>
+</body>
+</html>
