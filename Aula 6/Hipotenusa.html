@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Hipotenusa</title>
+    <style>
+        body{
+            font: normal 20pt Comic;
+            color:blueviolet;
+            background-color: rgb(179, 176, 176);
+            
+        }
+        h1{
+            font: normal 22pt Comic;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var ct1 = Number(window.prompt('Digite um cateto'));
+        document.write(`<h1>Um de seus catetos vale:</h1><Strong>${ct1}</Strong></br>`);
+	    var ct2 = Number(window.prompt('Digite outro cateto'));
+        document.write(`<h1>Um de seus catetos vale:</h1><Strong>${ct2}</Strong></br>`);
+	    var hip = Number(((ct1 * ct1) + (ct2 * ct2)) ** 0.5);
+        document.write(`<h1>Sua hipotenusa é:</h1><Strong>${hip.toFixed(3)}</Strong></br>`);
+    </script>
+</body>
+</html>

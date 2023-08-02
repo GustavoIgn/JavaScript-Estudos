@@ -22,3 +22,4 @@
 - .toFixed() //conserta as casas decimais de acordo com a quant. dentro do "()"
 - .replace() // realoca um símbolo no lugar de outro.
 - .toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //muda para o valor comercial do país
+- ** //indica potencia, elevado a tal
