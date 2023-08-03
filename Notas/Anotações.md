@@ -21,5 +21,10 @@
 - variável.toLowerCase() //torna em minúsculo.
 - .toFixed() //conserta as casas decimais de acordo com a quant. dentro do "()"
 - .replace() // realoca um símbolo no lugar de outro.
-- .toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //muda para o valor comercial do país
-- ** //indica potencia, elevado a tal
+- .toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //muda para o valor comercial do país.
+- ** //indica potencia, elevado a tal.
+- && //conjunção "e" comum.
+- ||//disjunção "ou" comum.
+- teste ? true : false//ternário - exemplo: (média >= 6 ? 'Aprovado' : 'Reprovado')
+- isNaN()//verifica se o conteúdo não é um número.
+- display: inline // elementos ficam lado a lado.

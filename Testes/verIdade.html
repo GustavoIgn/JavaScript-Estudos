@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar idade</title>
+    <style>
+        body{
+            font: normal 40pt comic;
+            text-align: center;
+            color:rgb(0, 0, 0);
+            background-color: rgb(179, 176, 176);
+        }
+        h1{
+            font: normal 40pt arial;
+            color:rgb(0, 100, 0);
+            display: inline;
+        }
+        h2{
+            font: normal 40pt arial;
+            color:hwb(0 0% 0%);
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        do{var id = Number(window.prompt('Qual a sua idade?'));
+        if (isNaN(id) == false) {
+            var verificar = id >= 18 ? 'Maior de idade' : 'Menor de idade';
+            if(verificar == 'Maior de idade'){
+                document.write(`Você é <h1><Strong>${verificar}</Strong></h1>`);
+            }
+            else{
+                document.write(`Você é <h2><Strong>${verificar}</Strong></h2>`);
+            }
+        } 
+        else {
+            window.alert('Insira apenas números!');
+        }}
+        while(isNaN(id) == true);
+    </script>
+</body>
+</html>
