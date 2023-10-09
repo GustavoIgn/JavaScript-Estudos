@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros - DOM</title>
+    <style>
+        body{
+            background-color: rgb(59, 128, 218);
+            color:rgb(255, 255, 255);
+            font: normal 14pt comic;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai alguns testes &#128516</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript &#128187</p>
+    <div id = "msg">Fase 1</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[1]
+        p1.style.color = 'red'
+        window.document.write('<span style="color: rgb(0, 112, 37"></br>' + p1.innerHTML + '</span>')//frase com o estilo "original"
+        //innerHTML pega toda a formatação
+
+        var corpo = document.body
+        corpo.style.backgroundColor = 'rgb(39, 6, 61)' //altera mesmo com estilo definido
+        corpo.style.textAlign = 'Center'
+
+        var d = document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerText = 'Modificando.....'
+
+    </script>
+
+    <div id = "fim"></br>Teste finalizado &#10004</div>
+    <h1>Continua...</h1>
+</body>
+</html>

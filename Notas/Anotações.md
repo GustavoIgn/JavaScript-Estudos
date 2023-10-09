@@ -28,3 +28,6 @@
 - teste ? true : false//ternário - exemplo: (média >= 6 ? 'Aprovado' : 'Reprovado')
 - isNaN()//verifica se o conteúdo não é um número.
 - display: inline // elementos ficam lado a lado.
+- var agora = new Date() //pega os dados atuais de hora e data
+- var hora = agora.getHours() // pega apenas as horas.
+- console.log //em JS seria a saída do sistema.
