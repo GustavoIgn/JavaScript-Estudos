@@ -31,3 +31,4 @@
 - var agora = new Date() //pega os dados atuais de hora e data
 - var hora = agora.getHours() // pega apenas as horas.
 - console.log //em JS seria a saída do sistema.
+- meta http-equiv="refresh" content="60"//tag meta que atualiza a pagina a cada "content" segundos.
