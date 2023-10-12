@@ -1,0 +1,73 @@
+body {
+    background: rgba(100, 27, 97, 0.815);
+    font: normal 15pt arial;
+}
+
+header {
+    color: rgb(255, 254, 254);
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+input#txtn {
+    border-radius: 10px;
+    border-color: white;
+    border-bottom-color: rgb(0, 0, 0);
+    border-right-color: grey;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#seln {
+    width: 150px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    gap: 10px;
+    margin-left: 20px
+}
+
+#finalizar {
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.5);
+    border-left-color: grey;
+    border-top-color: grey;
+}
+
+#limpar {
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.5);
+    border-left-color: grey;
+    border-top-color: grey;
+}
+
+#adc {
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.5);
+    border-left-color: grey;
+    border-top-color: grey;
+}
